@@ -1,2 +1,7 @@
 <script setup></script>
-<template>ああああ</template>
+<template>
+    <div v-if="$page.props.flash.message" class="bg-blue-300">
+        {{ $page.props.flash.message }}
+    </div>
+    あああああああ
+</template>
