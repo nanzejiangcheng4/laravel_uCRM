@@ -14,6 +14,11 @@ Route::get('/inertia-test', function () {
     }
 );
 
+Route::get('/sample', function () {
+    return Inertia::render('Sample',);
+    }
+);
+
 Route::get('/component-test', function () {
     return Inertia::render('ComponentTest',);
     }
